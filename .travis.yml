@@ -3,10 +3,6 @@ dist: bionic
 arch:
   - ppc64le
 go:
-  - 1.6
-  - tip
+  - 1.6.x
 script:
-  - go mod init
-  - go mod tidy
-  - go mod vendor
   - make
